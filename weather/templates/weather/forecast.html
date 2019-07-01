@@ -1,5 +1,5 @@
 {% load static %}
-
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css" rel="stylesheet">
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,8 +9,153 @@
 	<link rel="stylesheet" type="text/css" href="{% static 'weather/css/style.css' %}" />
 
 </head>
-<body>
+<body class="forecast-single">
+  <src image="https://wallpaperplay.com/walls/full/b/e/1/278689.jpg"></src>
 	<!-- your single-location forecast interface here -->
+  <div class="row top-of-screen-icons">
+<!-- connection, wifi, time, battery     -->
+    <div class="col-xs-4 top-of-screen-wifi">
+<!--       <i class="ionicons ion-connection-bars"></i> -->
+      <i class="fa fa-wifi"></i>      
+    </div>
+    <div class="col-xs-4 top-of-screen-time">
+      10:03AM
+    </div>
+<!--     <div class="col-xs-4 top-of-screen-battery">
+      <i class="fa fa-battery-three-quarters"></i>
+    </div> -->
+    
+  </div>
+  <div class="container">
+    <br> </br>
+  <br> </br>
+  <br> </br>
+    <div class = "row search">
+      <div class = "col-xs-2">
+        <a href="#">
+          <span class="glyphicon glyphicon-search" ></span>
+        </a>
+      </div>
+    </div>
+<!--   <br> </br> -->
+
+  <br> </br>
+    <div class = "row title">
+      <div class = "col-xs-12 title">
+          Berkeley
+      </div>
+<!--  add sunshine icon perhaps      -->
+    </div>
+    <div class="row temp">
+      <div class = "col-xs-6 temp">
+        50° F
+      </div>
+</div>
+  <br></br>
+<br></br>
+<br></br>
+<br></br>
+<div class = "row date">
+  <div class = "col-xs-10">
+    June 27, 2019
+  </div>
+  </div>
+<br></br>
+
+<div class = "row">
+  <div class = "col-xs-6">
+    10am
+  </div>
+  <div class = "col-xs-6 temp-symbol">
+    50° F
+    <a href="#">
+          <span class="glyphicon glyphicon-chevron-up"></span>
+        </a>
+  </div>
+<!--   <div class = "col-xs-3">
+    <a href="#">
+          <span class="glyphicon glyphicon-chevron-up"></span>
+        </a>
+  </div> -->
+</div>
+<div class = "row more-details">
+  <div class = "col-xs-4">
+    humidity
+  </div>
+  <div class = "col-xs-4">
+    87%
+  </div>
+</div>
+<div class = "row more-details">
+  <div class = "col-xs-4">
+    precipitation
+  </div>
+  <div class = "col-xs-4">
+    45%
+  </div>
+</div>
+<div class = "row more-details">
+<!--   for this you should name the class something like dropdown menu and then add padding in the css style sheet -->
+  <div class = "col-xs-4">
+    wind speed
+  </div>
+  <div class = "col-xs-4">
+    45 mph
+  </div>
+</div>
+<div class = "row hourly">
+  <div class = "col-xs-6">
+    11am
+  </div>
+  <div class = "col-xs-6 temp-symbol">
+    50° F
+    <a href="#">
+          <span class="glyphicon glyphicon-chevron-down"></span>
+        </a>
+  </div>
+<!--   <div class = "col-xs-3">
+    <a href="#">
+          <span class="glyphicon glyphicon-chevron-down"></span>
+        </a>
+  </div> -->
+</div>
+<br> </br>
+
+<div class = "row hourly">
+  <div class = "col-xs-6">
+    12pm
+  </div>
+  <div class = "col-xs-6 temp-symbol">
+    50° F
+    <a href="#">
+          <span class="glyphicon glyphicon-chevron-down"></span>
+        </a>
+  </div>
+</div>
+<br> </br>
+<div class = "row hourly">
+  <div class = "col-xs-6">
+    1pm
+  </div>
+  <div class = "col-xs-6 temp-symbol">
+    50° F
+    <a href="#">
+          <span class="glyphicon glyphicon-chevron-down"></span>
+        </a>
+  </div>
+</div>
+<br> </br>
+<div class = "row hourly">
+  <div class = "col-xs-6">
+    2pm
+  </div>
+  <div class = "col-xs-6 temp-symbol">
+    50° F
+    <a href="#">
+          <span class="glyphicon glyphicon-chevron-down"></span>
+        </a>
+  </div>
+</div>
 </body>
 </html>
 

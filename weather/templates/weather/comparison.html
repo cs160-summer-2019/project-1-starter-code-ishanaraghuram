@@ -1,5 +1,6 @@
 {% load static %}
-
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,7 +10,177 @@
 	<link rel="stylesheet" type="text/css" href="{% static 'weather/css/style.css' %}" />
 
 </head>
-<body>
+<body class="comparison">
 	<!-- your comparison interface here -->
+  <div class="row top-of-screen-icons">
+<!-- connection, wifi, time, battery     -->
+    <div class="col-xs-4 top-of-screen-wifi">
+<!--       <i class="ionicons ion-connection-bars"></i> -->
+      <i class="fa fa-wifi"></i>      
+    </div>
+    <div class="col-xs-4 top-of-screen-time">
+      10:03AM
+    </div>
+<!--     <div class="col-xs-4 top-of-screen-battery">
+      <i class="fa fa-battery-three-quarters"></i>
+    </div> -->
+    
+  </div>
+  <br> </br>
+  <br> </br>
+<br> </br>
+<br> </br>
+<br></br>
+  <br> </br>
+  <br> </br>
+<div class="city Berkeley">
+
+  <div class="row">
+    <div class="col-xs-8 city-name">
+      Berkeley, CA
+    </div>
+    <div class ="col-xs-4 date">
+      01/27/2019
+    </div>
+  </div>
+<br></br>
+<br></br>
+  <div class="row">
+    <div class="col-xs-3 small-forecast">
+      <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d60510ba-fb1b-4eb1-ae74-4c2f3a5ddd6c/davyat5-39759ba9-3fb2-44a0-9d13-34df859f486f.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2Q2MDUxMGJhLWZiMWItNGViMS1hZTc0LTRjMmYzYTVkZGQ2Y1wvZGF2eWF0NS0zOTc1OWJhOS0zZmIyLTQ0YTAtOWQxMy0zNGRmODU5ZjQ4NmYucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.zE4mtCzXKHX7aenrIGtchjvK6GgmOJEebJ49yapbdEA" class="symbol-forecast"></img>
+    </div>
+    <div class="col-xs-3 small-forecast">
+<!--        insert symbol of forecast-->
+      <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d60510ba-fb1b-4eb1-ae74-4c2f3a5ddd6c/davyat5-39759ba9-3fb2-44a0-9d13-34df859f486f.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2Q2MDUxMGJhLWZiMWItNGViMS1hZTc0LTRjMmYzYTVkZGQ2Y1wvZGF2eWF0NS0zOTc1OWJhOS0zZmIyLTQ0YTAtOWQxMy0zNGRmODU5ZjQ4NmYucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.zE4mtCzXKHX7aenrIGtchjvK6GgmOJEebJ49yapbdEA" class="symbol-forecast"></img>
+
+    </div>
+    <div class="col-xs-3 small-forecast">
+<!--        insert symbol of forecast-->
+      <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d60510ba-fb1b-4eb1-ae74-4c2f3a5ddd6c/davyat5-39759ba9-3fb2-44a0-9d13-34df859f486f.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2Q2MDUxMGJhLWZiMWItNGViMS1hZTc0LTRjMmYzYTVkZGQ2Y1wvZGF2eWF0NS0zOTc1OWJhOS0zZmIyLTQ0YTAtOWQxMy0zNGRmODU5ZjQ4NmYucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.zE4mtCzXKHX7aenrIGtchjvK6GgmOJEebJ49yapbdEA" class="symbol-forecast"></img>
+
+    </div>
+    <div class="col-xs-3 small-forecast">
+<!--        insert symbol of forecast-->
+            <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d60510ba-fb1b-4eb1-ae74-4c2f3a5ddd6c/davyat5-39759ba9-3fb2-44a0-9d13-34df859f486f.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2Q2MDUxMGJhLWZiMWItNGViMS1hZTc0LTRjMmYzYTVkZGQ2Y1wvZGF2eWF0NS0zOTc1OWJhOS0zZmIyLTQ0YTAtOWQxMy0zNGRmODU5ZjQ4NmYucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.zE4mtCzXKHX7aenrIGtchjvK6GgmOJEebJ49yapbdEA" class="symbol-forecast"></img>
+
+    </div>
+  </div>
+  <br> </br>
+  <div class="row">
+    <div class="col-xs-3 small-forecast">
+<!--        insert temp-->
+     50° F
+    </div>
+    <div class="col-xs-3 small-forecast">
+<!--        insert temp-->
+     51° F
+    </div>
+    <div class="col-xs-3 small-forecast">
+<!--        insert temp-->
+      53° F
+    </div>
+    <div class="col-xs-3 small-forecast">
+<!--        insert temp-->
+      50° F
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-xs-3 small-forecast">
+<!--        insert time-->
+      10am
+    </div>
+    <div class="col-xs-3 small-forecast">
+<!--        insert time-->
+      11am
+    </div>
+    <div class="col-xs-3 small-forecast">
+<!--        insert time-->
+      12pm
+    </div>
+    <div class="col-xs-3 small-forecast">
+<!--        insert time-->
+      1pm
+    </div>
+  </div>
+<br> </br>
+<br> </br>
+  <br> </br>
+  <br> </br>
+<div class="city Chicago">
+
+  <div class="row">
+    <div class="col-xs-8 city-name">
+      Chicago, IL
+    </div>
+    <div class ="col-xs-4 date">
+      01/27/2019
+    </div>
+  </div>
+<br></br>
+<br></br>
+  <div class="row">
+    <div class="col-xs-3 small-forecast">
+      <img src="https://1001freedownloads.s3.amazonaws.com/vector/thumb/105495/snow_flake_icon_4.png" class="symbol-forecast"></img>
+</div>
+    <div class="col-xs-3 small-forecast">
+<!--        insert symbol of forecast-->
+<img src="https://1001freedownloads.s3.amazonaws.com/vector/thumb/105495/snow_flake_icon_4.png" class="symbol-forecast"></img>
+    </div>
+    <div class="col-xs-3 small-forecast">
+<!--        insert symbol of forecast-->
+<img src="https://1001freedownloads.s3.amazonaws.com/vector/thumb/105495/snow_flake_icon_4.png" class="symbol-forecast"></img>
+    </div>
+    <div class="col-xs-3 small-forecast">
+<!--        insert symbol of forecast-->
+<img src="https://1001freedownloads.s3.amazonaws.com/vector/thumb/105495/snow_flake_icon_4.png" class="symbol-forecast"></img>
+    </div>
+
+  </div>
+  <br> </br>
+
+  <div class="row">
+    <div class="col-xs-3 small-forecast">
+<!--        insert temp-->
+     20° F
+    </div>
+    <div class="col-xs-3 small-forecast">
+<!--        insert temp-->
+     25° F
+    </div>
+    <div class="col-xs-3 small-forecast">
+<!--        insert temp-->
+      27° F
+    </div>
+    <div class="col-xs-3 small-forecast">
+<!--        insert temp-->
+      26° F
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-xs-3 small-forecast">
+<!--        insert time-->
+      10am
+    </div>
+    <div class="col-xs-3 small-forecast">
+<!--        insert time-->
+      11am
+    </div>
+    <div class="col-xs-3 small-forecast">
+<!--        insert time-->
+      12pm
+    </div>
+    <div class="col-xs-3 small-forecast">
+<!--        insert time-->
+      1pm
+    </div>
+  </div>
+
+  <div class = "row">
+    <a href="#">
+          <span class="glyphicon glyphicon-home"></span>
+        </a>
+</div> 
 </body>
 </html>

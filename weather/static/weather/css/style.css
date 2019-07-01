@@ -1,3 +1,248 @@
 li {
     color: green;
 }
+div.row.title {
+  text-align: center
+}
+
+div.row.temp {
+  text-align: center
+}
+
+div.col-xs-12.title {
+  font-size: 130px;
+  margin: auto;
+  color: e0e0e0;
+/*   font-weight: 400;
+  font-family: 'SF Display'; */
+/*   horizontal-align: middle; */
+}
+div.col-xs-6.temp {
+  font-size: 120px;
+  margin: auto;
+  color: e0e0e0;
+/*   font-weight: 400;
+  font-family: 'SF Display'; */
+/*   horizontal-align: middle; */
+}
+div.col-xs-6.temp-symbol {
+  text-align:right;
+  color: e0e0e0;
+}
+body.forecast-single {
+  color: e0e0e0;
+  background-color: transparent;
+  background-image: url("https://wallpaperplay.com/walls/full/b/e/1/278689.jpg");
+  font-weight: lighter;
+  
+  
+}
+/* @font-face {
+  font-family: "SF Display";
+  font-weight: 400;
+  src: url("https://sf.abarba.me/SF-UI-Display-Regular.otf");
+} */
+
+/* h3 {text-align: center} */
+.glyphicon.glyphicon-search {
+    margin-left: 5%;
+    font-size: 60px;
+    color: e0e0e0;
+}
+.glyphicon.glyphicon-chevron-up {
+  font-size: 25px;
+  color: e0e0e0;
+}
+.glyphicon.glyphicon-chevron-down {
+  font-size: 25px;
+  color: e0e0e0;
+}
+div.col-xs-10 {
+  font-size: 70px;
+  color: e0e0e0;
+/*   font-family: 'SF Display';
+  font-weight: 400; */
+}
+/* div.col-xs-3 {
+  font-size: 70px;
+  color: 212121;
+} */
+div.col-xs-6 {
+  font-size: 70px;
+  color: e0e0e0;
+/*   font-family: 'SF Display';
+  font-weight: 400; */
+}
+div.col-xs-2 {
+  font-size: 70px;
+  color: e0e0e0;
+/*   font-family: 'SF Display';
+  font-weight: 400; */
+}
+div.row.more-details {
+  padding-left: 30px;
+  font-size: 40px;
+  color: e0e0e0;
+/*   font-family: 'SF Display';
+  font-weight: 400; */
+}
+
+a {
+  color: 4C4A48;
+}
+
+/* div.search {
+  background-color: white;
+  opacity: 0.3;
+  padding: 5px;
+} */
+
+div.col-xs-8.city-name {
+  font-size: 85px;
+  
+  
+}
+div.col-xs-4.date {
+  font-size: 40px;
+  padding-top: 30px;
+}
+
+img.symbol-forecast {
+  height: 130px;
+  width: 130px;
+}
+div.col-xs-3.small-forecast {
+  font-size: 45px;
+  text-align: center;
+  padding-left: 0px;
+}
+
+.glyphicon.glyphicon-home {
+  font-size: 40px;
+  padding-top: 340px;
+  color: e0e0e0;
+}
+div.col-xs-4.top-of-screen-time {
+  color: e0e0e0;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 2%;
+}
+div.col-xs-4.top-of-screen-wifi {
+  color: e0e0e0;
+  font-size: 30px;
+  text-align: left;
+  margin-left: 10px;
+  padding-top: 2%;
+}
+/* div.col-xs-4.top-of-screen-battery {
+  color: e0e0e0;
+  font-size: 30px;
+  text-align: right;
+  padding-left: 90%;
+  padding-top: 0%;
+} */
+
+body.comparison {
+  background-color: 34495e;
+  color: e0e0e0;
+  font-weight: lighter;
+  margin-left: 5%;
+}
+body.comparison-alert {
+  background-color: 34495e;
+  color: e0e0e0;
+  font-weight: lighter;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+body.forecast-alert {
+  background-image: url("https://i.pinimg.com/originals/1b/c3/0d/1bc30d396d0968dc374952a16c6c8b1a.jpg");
+  color: e0e0e0;
+  background-color: rgb(224,224,224, 0);
+  font-weight: lighter;
+  
+/*   opacity: 0; */
+}
+div.container.alert {
+/*   align: center; */
+/*   position:absolute; */
+/*   width: 80%; */
+  margin: auto;
+  
+/*   margin-left: 0%; */
+}
+/* from: https://stackoverflow.com/questions/114543/how-to-horizontally-center-a-div */
+div.row.alert-options {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 10px;
+/*   align: center; */
+}
+div.col-xs-6.alert-option-a {
+  align: center;
+  padding-right: 130px;
+/*   padding-left: 20px; */
+  
+  
+}
+div.col-xs-6.alert-option-b {
+  align: center;
+  padding-left: 50px;
+/*   padding-right: 20px; */
+}
+/* div.col-xs-2.close-btn {
+  padding-left: 30px;
+} */
+.btn.btn-danger {
+  height: 60px;
+  width: 180px;
+  font-size: 25px;
+}
+.btn.btn-info{
+  height: 60px;
+  width: 180px;
+  font-size: 25px;
+}
+.btn.btn-success{
+  height: 60px;
+  width: 180px;
+  font-size: 25px;
+}
+.btn.btn-secondary{
+  height: 60px;
+  width: 180px;
+  font-size: 25px;
+}
+.btn.btn-dark{
+  height: 60px;
+  width: 180px;
+  font-size: 25px;
+}
+/* from: https://www.w3schools.com/howto/howto_js_alert.asp */
+.alert {
+  
+  background-color: #f44336; /* Red */
+  color: white;
+  margin-bottom: 10px;
+  font-size: 45px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: black;
+}

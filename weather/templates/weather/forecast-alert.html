@@ -1,4 +1,5 @@
 {% load static %}
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css" rel="stylesheet">
 
 <!DOCTYPE html>
 <html>
@@ -9,7 +10,166 @@
 	<link rel="stylesheet" type="text/css" href="{% static 'weather/css/style.css' %}" />
 
 </head>
-<body>
+<body class="forecast-alert">
+  <div class = "container">
+<div class="alert">
+  <div class="row alert">
+    
+    <div class = "col-xs-12 alert-text">
+      
+  Alert: Thunderstorm warning near you.
+    </div>
+  </div>
+  <div class = "row alert-options">
+    <div class = "col-xs-6 alert-option-a">
+      <button type="button" class="btn btn-dark">CHASE</button>
+    </div>
+    <div class = "col-xs-6 alert-option-b">
+      <button type="button" class="btn btn-success">SAFETY TIPS</button>
+    </div>
+<!--     <div class = "col-xs-2 close-btn">
+         <span class="closebtn-primary" onclick="this.parentElement.style.display='none';">&times;</span> 
+
+    </div> -->
+    
+    </div>
+</div>
+</div>
+<!--     <div class="col-xs-4 top-of-screen-battery">
+      <i class="fa fa-battery-three-quarters"></i>
+    </div> -->
+    
+  </div>
+  <div class="container">
+    <src image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi-Pymoe3Glt1a78QJ9c7_Ye0WpFNRgwft91kWqdlbCc4OidJx"></src>
+<!--     <br> </br> -->
+<!--     <div class = "row search">
+      <div class = "col-xs-2">
+        <a href="#">
+          <span class="glyphicon glyphicon-search" ></span>
+        </a>
+      </div>
+    </div> -->
+<!--   <br> </br> -->
+
+  <br> </br>
+    <div class = "row title">
+      <div class = "col-xs-12 title">
+          Portland
+      </div>
+<!--  add sunshine icon perhaps      -->
+    </div>
+    <div class="row temp">
+      <div class = "col-xs-6 temp">
+        50° F
+      </div>
+</div>
+  <br></br>
+<br></br>
+<br></br>
+<br></br>
+<div class = "row date">
+  <div class = "col-xs-10">
+    June 27, 2019
+  </div>
+  </div>
+<br></br>
+
+<div class = "row">
+  <div class = "col-xs-6">
+    7pm
+  </div>
+  <div class = "col-xs-6 temp-symbol">
+    50° F
+    <a href="#">
+          <span class="glyphicon glyphicon-chevron-up"></span>
+        </a>
+  </div>
+<!--   <div class = "col-xs-3">
+    <a href="#">
+          <span class="glyphicon glyphicon-chevron-up"></span>
+        </a>
+  </div> -->
+</div>
+<div class = "row more-details">
+  <div class = "col-xs-4">
+    humidity
+  </div>
+  <div class = "col-xs-4">
+    87%
+  </div>
+</div>
+<div class = "row more-details">
+  <div class = "col-xs-4">
+    precipitation
+  </div>
+  <div class = "col-xs-4">
+    45%
+  </div>
+</div>
+<div class = "row more-details">
+<!--   for this you should name the class something like dropdown menu and then add padding in the css style sheet -->
+  <div class = "col-xs-4">
+    wind speed
+  </div>
+  <div class = "col-xs-4">
+    45 mph
+  </div>
+</div>
+<div class = "row hourly">
+  <div class = "col-xs-6">
+    8pm
+  </div>
+  <div class = "col-xs-6 temp-symbol">
+    50° F
+    <a href="#">
+          <span class="glyphicon glyphicon-chevron-down"></span>
+        </a>
+  </div>
+<!--   <div class = "col-xs-3">
+    <a href="#">
+          <span class="glyphicon glyphicon-chevron-down"></span>
+        </a>
+  </div> -->
+</div>
+<br> </br>
+
+<div class = "row hourly">
+  <div class = "col-xs-6">
+    9pm
+  </div>
+  <div class = "col-xs-6 temp-symbol">
+    50° F
+    <a href="#">
+          <span class="glyphicon glyphicon-chevron-down"></span>
+        </a>
+  </div>
+</div>
+<br> </br>
+<div class = "row hourly">
+  <div class = "col-xs-6">
+    10pm
+  </div>
+  <div class = "col-xs-6 temp-symbol">
+    50° F
+    <a href="#">
+          <span class="glyphicon glyphicon-chevron-down"></span>
+        </a>
+  </div>
+</div>
+<br> </br>
+<div class = "row hourly">
+  <div class = "col-xs-6">
+    11pm
+  </div>
+  <div class = "col-xs-6 temp-symbol">
+    50° F
+    <a href="#">
+          <span class="glyphicon glyphicon-chevron-down"></span>
+        </a>
+  </div>
+</div>
+  </div>
 	<!-- your single-location forecast with alert interface here -->
 </body>
 </html>
